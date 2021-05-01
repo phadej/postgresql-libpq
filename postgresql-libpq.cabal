@@ -48,7 +48,7 @@ custom-setup
 
 -- If true,  use pkg-config,  otherwise use the pg_config based build
 -- configuration
-flag use-pkg-config
+Flag use-pkg-config
   default: False
   manual:  True
 
